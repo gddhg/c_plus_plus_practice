@@ -2,19 +2,19 @@
 ---------------------------
 
 ## 编译 ##
-1.mkdir build
-2.cd build
-3.cmake ..
+1. mkdir build
+2. cd build
+3. cmake ..
 4.make
 ---------------------------
 
 ## 清除编译缓存 ##
-1.cd build
-2.make clean
+1. cd build
+2. make clean
 
 ## 删除编译生成的二进制并清除编译缓存 ##
-1.cd build
-2.make distclean
+1. cd build
+2. make distclean
 
 
 ## 代码结构 ##
