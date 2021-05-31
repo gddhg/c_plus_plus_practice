@@ -5,7 +5,7 @@
 1. mkdir build
 2. cd build
 3. cmake ..
-4.make
+4. make
 ---------------------------
 
 ## 清除编译缓存 ##
@@ -27,8 +27,11 @@
 │   └── env.txt
 ├── Readme.md
 └── src #源代码，存放联系编写的代码
+    └── CMakeLists.txt
     ├── addArray
     │   ├── addArray.cpp
     │   └── CMakeLists.txt
-    └── CMakeLists.txt
+    └── fileCopy
+        ├── CMakeLists.txt
+        └── fileCopy.cpp
 ```
